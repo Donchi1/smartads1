@@ -1,12 +1,11 @@
 "use client"
-import H2 from '@/app/components/H2'
 import useLangLoader from '@/app/components/hooks/useLangLoader'
 import Layout from '@/app/components/Layout'
 import NavHeader from '@/app/components/NavHeader'
 //import { countryInfo, getFromLocalStorage, setToLocalStorage } from '@/utils/helpers'
 //import Image from 'next/image'
 
-import React, { useEffect } from 'react'
+import React from 'react'
 
 function Page() {
   // const [langCode, setLangCode] = useState(getFromLocalStorage("lang"))

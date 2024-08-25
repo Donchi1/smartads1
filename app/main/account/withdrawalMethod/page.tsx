@@ -7,7 +7,7 @@ import { useRouter } from 'next/navigation'
 import React from 'react'
 import * as Yup from "yup"
 
-function page() {
+function Page() {
 const router = useRouter()
   const formik = useFormik({
     initialValues: {
@@ -37,4 +37,4 @@ const router = useRouter()
   )
 }
 
-export default page
+export default Page

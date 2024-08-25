@@ -63,7 +63,7 @@ function Page() {
           <div>
             <H2 className='!text-[16px] text-black/80'>Instructions for binding TRC20 wallet Addresses:</H2>
             <Text className='text-[17px] !text-black/70'>
-              1. The TRC20 network address starts with the number "0", please check if your wallet address is correct.
+              1. The TRC20 network address starts with the number &quot;T&quot;, please check if your wallet address is correct.
             </Text>
             <Text className='text-[17px] !text-black/70'>
               2. If the address you have bound is incorrect, you can contact the customer service to rebind.
