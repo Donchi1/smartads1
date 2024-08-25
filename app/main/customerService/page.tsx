@@ -8,7 +8,7 @@ import Link from 'next/link';
 import React from 'react'
 import { FaChevronRight } from 'react-icons/fa';
 
-function page() {
+function Page() {
   const [adminUser] = useGetDocWithClause({ colls: `users`, q: { path: "isAdmin", condition: "==", value: true } })
 
   const customerServiceItems = [
@@ -41,4 +41,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

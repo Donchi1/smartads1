@@ -2,16 +2,12 @@
 import Layout from '@/app/components/Layout'
 import NavHeader from '@/app/components/NavHeader'
 import WithdrawalMethod from '@/app/components/WithdrawalMethod'
-import { auth, db } from '@/db/firebaseConfig'
-import { addDoc, doc, serverTimestamp, setDoc } from 'firebase/firestore'
 import { useFormik } from 'formik'
 import { useRouter } from 'next/navigation'
-import { useSnackbar } from 'notistack'
 import React from 'react'
 import * as Yup from "yup"
 
 function page() {
-  const { enqueueSnackbar } = useSnackbar();
 const router = useRouter()
   const formik = useFormik({
     initialValues: {

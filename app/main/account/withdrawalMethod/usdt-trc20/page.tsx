@@ -15,7 +15,7 @@ import { useSnackbar } from 'notistack'
 import React from 'react'
 import * as Yup from "yup"
 
-function page() {
+function Page() {
   const { enqueueSnackbar } = useSnackbar();
   const formik = useFormik({
     initialValues: {
@@ -78,4 +78,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

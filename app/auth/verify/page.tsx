@@ -16,7 +16,7 @@ import { useRouter } from 'next/navigation'
 import useGetDocument from '@/app/components/hooks/UseDocument'
 import useValidationError from '@/app/components/hooks/UseValidationError'
 
-function page() {
+function Page() {
   const router = useRouter()
   const [userDocument, docLoading, userError] = useGetDocument(
       "users",
@@ -141,4 +141,4 @@ useValidationError(formik)
 }
 
 
-export default page
+export default Page

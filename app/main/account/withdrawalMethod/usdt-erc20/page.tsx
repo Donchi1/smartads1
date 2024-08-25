@@ -15,7 +15,7 @@ import { useSnackbar } from 'notistack'
 import React from 'react'
 import * as Yup from "yup"
 
-function page() {
+function Page() {
   const { enqueueSnackbar } = useSnackbar();
   const formik = useFormik({
     initialValues: {
@@ -63,7 +63,7 @@ function page() {
           <div>
             <H2 className='!text-[16px] text-black/80'>Instructions for binding ERC20 wallet Addresses:</H2>
             <Text className='text-[17px] !text-black/70'>
-              1. The ERC20 network address starts with the number "0", please check if your wallet address is correct.
+              1. The ERC20 network address starts with the number &quot;0&quot;, please check if your wallet address is correct.
             </Text>
             <Text className='text-[17px] !text-black/70'>
               2. If the address you have bound is incorrect, you can contact the customer service to rebind.
@@ -78,4 +78,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

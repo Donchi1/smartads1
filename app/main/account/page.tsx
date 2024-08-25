@@ -16,7 +16,7 @@ import { useSnackbar } from 'notistack'
 import React from 'react'
 import { FaChevronRight, FaCopy } from 'react-icons/fa'
 
-function page() {
+function Page() {
   const { enqueueSnackbar } = useSnackbar()
   const router = useRouter()
   const [user, isLoading] = useGetDocument("users", auth.currentUser?.uid || "ghuh")
@@ -107,4 +107,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

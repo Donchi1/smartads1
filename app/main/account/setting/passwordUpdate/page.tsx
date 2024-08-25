@@ -6,7 +6,6 @@ import React from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { signInWithEmailAndPassword, updatePassword } from 'firebase/auth';;
-import { useAuthStore } from '@/app/store/authStore';
 import { useSnackbar } from 'notistack';
 import { auth, db } from '@/db/firebaseConfig';
 import Button from '@/app/components/Buttons';
@@ -15,7 +14,7 @@ import useValidationError from '@/app/components/hooks/UseValidationError';
 import { doc, updateDoc } from 'firebase/firestore';
 
 const ChangePassword: React.FC = () => {
-  const { currentUser } = useAuthStore();
+
   const { enqueueSnackbar } = useSnackbar();
 
   const formik = useFormik({

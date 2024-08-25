@@ -2,17 +2,14 @@
 import Button from '@/app/components/Buttons'
 import Input from '@/app/components/Input'
 import Layout from '@/app/components/Layout'
-import Modal from '@/app/components/Modal'
 import NavHeader from '@/app/components/NavHeader'
 import Spinner from '@/app/components/Spinner'
 import Text from '@/app/components/Text'
 import React, { useCallback, useEffect, useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import { useSnackbar } from "notistack";
-import { useRouter } from "next/navigation";
+import { useSnackbar } from "notistack"
 import { addDoc, collection, doc, serverTimestamp, setDoc, updateDoc } from "firebase/firestore";
-import { useAuthStore } from "@/app/store/authStore";
 import { auth, db } from "@/db/firebaseConfig";
 import formatCurrency from "@/utils/converter";
 import WithdrawalMethod from '@/app/components/WithdrawalMethod'

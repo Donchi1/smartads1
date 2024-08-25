@@ -5,12 +5,11 @@ import Layout from '@/app/components/Layout'
 import Loading from '@/app/components/Loading'
 import NavHeader from '@/app/components/NavHeader'
 import Text from '@/app/components/Text'
-import { useAuthStore } from '@/app/store/authStore'
 import { auth } from '@/db/firebaseConfig'
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
-function page() {
+function Page() {
   const [currentUser,isLoading] = useGetDocument("users", auth.currentUser?.uid || "uyth")
   const [tab, setTab] = useState(false)
 
@@ -104,4 +103,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

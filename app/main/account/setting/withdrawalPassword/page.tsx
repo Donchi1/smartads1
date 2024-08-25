@@ -13,7 +13,7 @@ import { useSnackbar } from 'notistack';
 import React from 'react'
 import * as Yup from "yup"
 
-function withdrawalPassword() {
+function WithdrawalPassword() {
   const {currentUser} = useAuthStore()
   const { enqueueSnackbar } = useSnackbar();
 
@@ -96,4 +96,4 @@ function withdrawalPassword() {
   )
 }
 
-export default withdrawalPassword
+export default WithdrawalPassword

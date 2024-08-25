@@ -51,7 +51,7 @@ function PrivacyPolicy() {
             </Text>
             <Text>
               <strong>Commercial Ads Orders</strong><br />
-              Commercial Ads Orders are profit-oriented ads primarily focused on hotel ads communication activities. These orders help merchants gain brand support and attract more customers. By participating in Commercial Ads Orders, members can earn up to 9x commissions, with each round providing 0-3 orders. Note that when you receive a Commercial Ads Order, you must complete it for the "Processing" amount to be reflected in your account assets.
+              Commercial Ads Orders are profit-oriented ads primarily focused on hotel ads communication activities. These orders help merchants gain brand support and attract more customers. By participating in Commercial Ads Orders, members can earn up to 9x commissions, with each round providing 0-3 orders. Note that when you receive a Commercial Ads Order, you must complete it for the &quot;Processing&quot; amount to be reflected in your account assets.
             </Text>
             <Text>
               <strong>Data Sharing and Disclosure</strong><br />

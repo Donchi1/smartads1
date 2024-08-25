@@ -16,9 +16,9 @@ function page() {
           <div className='space-y-4'>
             <div className='space-y-2'>
               <Text >
-                "Google usually delivers search results as fast as possible
+              &quot;Google usually delivers search results as fast as possible
               </Text>
-              <Text>It can deliver millions in about 0.18seconds"</Text>
+              <Text>It can deliver millions in about 0.18seconds&quot;</Text>
             </div>
 
             <Image className='w-[350px]' width={500} height={500} src={"/img/get-started.png"} alt='getstarted' />
