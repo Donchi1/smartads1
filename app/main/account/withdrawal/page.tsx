@@ -114,7 +114,7 @@ const WithdrawalPage = () => {
         return enqueueSnackbar("Low or no balance for withdrawal", { variant: "error" });
       }
       //check if the withdrawal AMOUNT is greater than the main balance
-      if (currentUser?.commission < Number(values.withdrawalAmount) + 1) {
+      if (currentUser?.commission < Number(values.withdrawalAmount)) {
         formik.setSubmitting(false);
         return enqueueSnackbar("Insufficient balance", { variant: "error" });
       }
